@@ -8,13 +8,13 @@
 
 
 ## setup
-
+```
 pip install pytorchcvtcolor
-
+```
 
 ## example
 
-
+```
 from pytorchcvtcolor import CvtColor
 from pytorchcvtcolor.image import image_to_tensor,tensor_to_image
 import cv2
@@ -27,5 +27,5 @@ out = cvt(out,"COLOR_YCBCR2RGB")
 image = tensor_to_image(out)
 cv2.imshow("p",image)
 cv2.waitKey()
-
+```
 
